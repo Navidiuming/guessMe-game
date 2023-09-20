@@ -1,0 +1,81 @@
+.wordContiner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    border:1px dotted;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.introduce{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.wordToFind{
+    direction: rtl;
+    position: relative;
+    margin-left: calc(50% - 100px);
+    width: 200px;
+    height: 40px;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.wordToFind .letterToFind{
+    background-color: rgb(222, 222, 222);
+    width: 25px;
+    padding: 0;
+    margin: 1%;
+    text-align: center;
+    color: rgb(222, 222, 222);
+
+}
+
+.usedlettersBox .letterToFind{
+    color: black;
+}
+
+.keyboard{
+    direction: rtl;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+
+.menu button{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: calc(50% - 125px);
+}
+
+.keyboard .resultDisplay{
+    position: absolute;
+    width: 25em;
+    height: 25em;
+    background-color: black;
+    color: white;
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.keyboard .resultDisplay p{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 70%;
+    font-size: xx-large;
+}

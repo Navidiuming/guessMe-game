@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>find me</title>
+</head>
+<body>
+    <div class="introduce">
+        <h2> بازی حدس زدن اسم ها</h2>
+        <p>بازی به این شکل طراحی شده که یک کلمه چند حرفی در زیر برای شما انتخاب کریدم تا حدس بزنید. اگر حرفی که از صفحه کلید پایین انتخاب می کنید درست باشد حرف درست در ردیف بالا به رنگ آبی قرار میگیرید و جایگاه حرف درست رو به شما نمایش میدهد، اما اگر حرفی که انتخاب می کنید اشتباهد باشد در ردیف پایین قرار میگیرد. شما تا زمانی که ردیف پایین پر از کلما ت اشتباه نشده مجازید تا خطا کنید.</p>
+    </div>
+    <div class="wordContiner">
+        <p>کلمه ای که باید حدس بزنی</p>
+        <div class="wordToFind" id="wordHolder">
+        </div>
+
+        <p>این کلمات جزو کلمات اصلی نیست </p>
+        <div class="wordToFind usedlettersBox" id="usedLettersBox">
+        </div>
+    </div>
+
+
+    <div class="keyboard">
+        <div class="resultDisplay" id="resultPage">
+            <p></p>
+            <p></p>
+        </div>
+        <button class="alphabet" onclick="myFunction(this)">ا</button>
+        <button class="alphabet" onclick="myFunction(this)">ب</button>
+        <button class="alphabet" onclick="myFunction(this)">پ</button>
+        <button class="alphabet" onclick="myFunction(this)">ت</button>
+        <button class="alphabet" onclick="myFunction(this)">ث</button>
+        <button class="alphabet" onclick="myFunction(this)">ج</button>
+        <button class="alphabet" onclick="myFunction(this)">چ</button>
+        <button class="alphabet" onclick="myFunction(this)">ح</button>
+        <button class="alphabet" onclick="myFunction(this)">خ</button>
+        <button class="alphabet" onclick="myFunction(this)">د</button>
+        <button class="alphabet" onclick="myFunction(this)">ذ</button>
+        <button class="alphabet" onclick="myFunction(this)">ر</button>
+        <button class="alphabet" onclick="myFunction(this)">ز</button>
+        <button class="alphabet" onclick="myFunction(this)">ژ</button>
+        <button class="alphabet" onclick="myFunction(this)">س</button>
+        <button class="alphabet" onclick="myFunction(this)">ش</button>
+        <button class="alphabet" onclick="myFunction(this)">ص</button>
+        <button class="alphabet" onclick="myFunction(this)">ض</button>
+        <button class="alphabet" onclick="myFunction(this)">ط</button>
+        <button class="alphabet" onclick="myFunction(this)">ظ</button>
+        <button class="alphabet" onclick="myFunction(this)">ع</button>
+        <button class="alphabet" onclick="myFunction(this)">غ</button>
+        <button class="alphabet" onclick="myFunction(this)">ف</button>
+        <button class="alphabet" onclick="myFunction(this)">ق</button>
+        <button class="alphabet" onclick="myFunction(this)">ک</button>
+        <button class="alphabet" onclick="myFunction(this)">گ</button>
+        <button class="alphabet" onclick="myFunction(this)">ل</button>
+        <button class="alphabet" onclick="myFunction(this)">م</button>
+        <button class="alphabet" onclick="myFunction(this)">ن</button>
+        <button class="alphabet" onclick="myFunction(this)">و</button>
+        <button class="alphabet" onclick="myFunction(this)">ه</button>
+        <button class="alphabet" onclick="myFunction(this)">و</button>
+        <button class="alphabet" onclick="myFunction(this)">ی</button>
+    </div>
+    <div class="menu">
+        <button id="restartBtn">بازی جدید</button>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
